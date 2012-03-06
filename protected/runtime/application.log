@@ -1,0 +1,307 @@
+2012/03/06 10:13:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "contact".' in /home/nike/webprojects/aliex/framework/web/CController.php:484
+Stack trace:
+#0 /home/nike/webprojects/aliex/framework/web/CController.php(271): CController->missingAction('contact')
+#1 /home/nike/webprojects/aliex/framework/web/CWebApplication.php(276): CController->run('contact')
+#2 /home/nike/webprojects/aliex/framework/web/CWebApplication.php(135): CWebApplication->runController('site/contact')
+#3 /home/nike/webprojects/aliex/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/nike/webprojects/aliex/www/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=site/contact
+HTTP_REFERER=http://aliex/
+---
+2012/03/06 10:35:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "parser".' in /home/nike/webprojects/aliex/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/nike/webprojects/aliex/framework/web/CWebApplication.php(135): CWebApplication->runController('parser')
+#1 /home/nike/webprojects/aliex/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/nike/webprojects/aliex/www/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=parser
+---
+2012/03/06 11:07:44 [error] [php] Object of class Zend_Dom_Query_Result could not be converted to string (/home/nike/webprojects/aliex/www/protected/controllers/ParserImgController.php:42)
+Stack trace:
+#0 /home/nike/webprojects/aliex/framework/web/CController.php(287): ParserImgController->runAction()
+#1 /home/nike/webprojects/aliex/framework/web/CController.php(266): ParserImgController->runActionWithFilters()
+#2 /home/nike/webprojects/aliex/framework/web/CWebApplication.php(276): ParserImgController->run()
+#3 /home/nike/webprojects/aliex/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#4 /home/nike/webprojects/aliex/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#5 /home/nike/webprojects/aliex/www/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=parserImg
+in /home/nike/webprojects/aliex/www/protected/controllers/ParserImgController.php (42)
+in /home/nike/webprojects/aliex/www/index.php (13)
+2012/03/06 11:11:57 [error] [php] Undefined variable: ch (/home/nike/webprojects/aliex/www/protected/controllers/ParserImgController.php:44)
+Stack trace:
+#0 /home/nike/webprojects/aliex/framework/web/CController.php(287): ParserImgController->runAction()
+#1 /home/nike/webprojects/aliex/framework/web/CController.php(266): ParserImgController->runActionWithFilters()
+#2 /home/nike/webprojects/aliex/framework/web/CWebApplication.php(276): ParserImgController->run()
+#3 /home/nike/webprojects/aliex/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#4 /home/nike/webprojects/aliex/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#5 /home/nike/webprojects/aliex/www/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=parserImg
+in /home/nike/webprojects/aliex/www/protected/controllers/ParserImgController.php (44)
+in /home/nike/webprojects/aliex/www/index.php (13)
+2012/03/06 11:12:13 [error] [php] Object of class Zend_Dom_Query_Result could not be converted to string (/home/nike/webprojects/aliex/www/protected/controllers/ParserImgController.php:46)
+Stack trace:
+#0 /home/nike/webprojects/aliex/framework/web/CController.php(287): ParserImgController->runAction()
+#1 /home/nike/webprojects/aliex/framework/web/CController.php(266): ParserImgController->runActionWithFilters()
+#2 /home/nike/webprojects/aliex/framework/web/CWebApplication.php(276): ParserImgController->run()
+#3 /home/nike/webprojects/aliex/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#4 /home/nike/webprojects/aliex/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#5 /home/nike/webprojects/aliex/www/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=parserImg
+in /home/nike/webprojects/aliex/www/protected/controllers/ParserImgController.php (46)
+in /home/nike/webprojects/aliex/www/index.php (13)
+2012/03/06 11:12:17 [error] [php] Object of class Zend_Dom_Query_Result could not be converted to string (/home/nike/webprojects/aliex/www/protected/controllers/ParserImgController.php:46)
+Stack trace:
+#0 /home/nike/webprojects/aliex/framework/web/CController.php(287): ParserImgController->runAction()
+#1 /home/nike/webprojects/aliex/framework/web/CController.php(266): ParserImgController->runActionWithFilters()
+#2 /home/nike/webprojects/aliex/framework/web/CWebApplication.php(276): ParserImgController->run()
+#3 /home/nike/webprojects/aliex/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#4 /home/nike/webprojects/aliex/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#5 /home/nike/webprojects/aliex/www/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=parserImg
+in /home/nike/webprojects/aliex/www/protected/controllers/ParserImgController.php (46)
+in /home/nike/webprojects/aliex/www/index.php (13)
+2012/03/06 11:14:19 [error] [php] Object of class Zend_Dom_Query_Result could not be converted to string (/home/nike/webprojects/aliex/www/protected/controllers/ParserImgController.php:46)
+Stack trace:
+#0 /home/nike/webprojects/aliex/framework/web/CController.php(287): ParserImgController->runAction()
+#1 /home/nike/webprojects/aliex/framework/web/CController.php(266): ParserImgController->runActionWithFilters()
+#2 /home/nike/webprojects/aliex/framework/web/CWebApplication.php(276): ParserImgController->run()
+#3 /home/nike/webprojects/aliex/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#4 /home/nike/webprojects/aliex/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#5 /home/nike/webprojects/aliex/www/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=parserImg
+in /home/nike/webprojects/aliex/www/protected/controllers/ParserImgController.php (46)
+in /home/nike/webprojects/aliex/www/index.php (13)
+2012/03/06 11:18:28 [error] [php] DOMXPath::query(): Invalid number of arguments (/home/nike/webprojects/aliex/www/protected/vendors/Zend/Dom/Query.php:312)
+Stack trace:
+#0 /home/nike/webprojects/aliex/www/protected/vendors/Zend/Dom/Query.php(225): Zend_Dom_Query->queryXpath()
+#1 /home/nike/webprojects/aliex/www/protected/controllers/ParserImgController.php(40): Zend_Dom_Query->query()
+#2 /home/nike/webprojects/aliex/framework/web/actions/CInlineAction.php(50): ParserImgController->actionIndex()
+#3 /home/nike/webprojects/aliex/framework/web/CController.php(309): CInlineAction->runWithParams()
+#4 /home/nike/webprojects/aliex/framework/web/CController.php(287): ParserImgController->runAction()
+#5 /home/nike/webprojects/aliex/framework/web/CController.php(266): ParserImgController->runActionWithFilters()
+#6 /home/nike/webprojects/aliex/framework/web/CWebApplication.php(276): ParserImgController->run()
+#7 /home/nike/webprojects/aliex/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#8 /home/nike/webprojects/aliex/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /home/nike/webprojects/aliex/www/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=parserImg
+in /home/nike/webprojects/aliex/www/protected/vendors/Zend/Dom/Query.php (312)
+in /home/nike/webprojects/aliex/www/protected/vendors/Zend/Dom/Query.php (272)
+in /home/nike/webprojects/aliex/www/protected/vendors/Zend/Dom/Query.php (225)
+2012/03/06 11:18:48 [error] [php] DOMXPath::query(): Invalid expression (/home/nike/webprojects/aliex/www/protected/vendors/Zend/Dom/Query.php:312)
+Stack trace:
+#0 /home/nike/webprojects/aliex/www/protected/vendors/Zend/Dom/Query.php(225): Zend_Dom_Query->queryXpath()
+#1 /home/nike/webprojects/aliex/www/protected/controllers/ParserImgController.php(40): Zend_Dom_Query->query()
+#2 /home/nike/webprojects/aliex/framework/web/actions/CInlineAction.php(50): ParserImgController->actionIndex()
+#3 /home/nike/webprojects/aliex/framework/web/CController.php(309): CInlineAction->runWithParams()
+#4 /home/nike/webprojects/aliex/framework/web/CController.php(287): ParserImgController->runAction()
+#5 /home/nike/webprojects/aliex/framework/web/CController.php(266): ParserImgController->runActionWithFilters()
+#6 /home/nike/webprojects/aliex/framework/web/CWebApplication.php(276): ParserImgController->run()
+#7 /home/nike/webprojects/aliex/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#8 /home/nike/webprojects/aliex/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /home/nike/webprojects/aliex/www/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=parserImg
+in /home/nike/webprojects/aliex/www/protected/vendors/Zend/Dom/Query.php (312)
+in /home/nike/webprojects/aliex/www/protected/vendors/Zend/Dom/Query.php (272)
+in /home/nike/webprojects/aliex/www/protected/vendors/Zend/Dom/Query.php (225)
+2012/03/06 11:19:01 [error] [php] DOMXPath::query(): Invalid number of arguments (/home/nike/webprojects/aliex/www/protected/vendors/Zend/Dom/Query.php:312)
+Stack trace:
+#0 /home/nike/webprojects/aliex/www/protected/vendors/Zend/Dom/Query.php(225): Zend_Dom_Query->queryXpath()
+#1 /home/nike/webprojects/aliex/www/protected/controllers/ParserImgController.php(40): Zend_Dom_Query->query()
+#2 /home/nike/webprojects/aliex/framework/web/actions/CInlineAction.php(50): ParserImgController->actionIndex()
+#3 /home/nike/webprojects/aliex/framework/web/CController.php(309): CInlineAction->runWithParams()
+#4 /home/nike/webprojects/aliex/framework/web/CController.php(287): ParserImgController->runAction()
+#5 /home/nike/webprojects/aliex/framework/web/CController.php(266): ParserImgController->runActionWithFilters()
+#6 /home/nike/webprojects/aliex/framework/web/CWebApplication.php(276): ParserImgController->run()
+#7 /home/nike/webprojects/aliex/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#8 /home/nike/webprojects/aliex/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /home/nike/webprojects/aliex/www/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=parserImg
+in /home/nike/webprojects/aliex/www/protected/vendors/Zend/Dom/Query.php (312)
+in /home/nike/webprojects/aliex/www/protected/vendors/Zend/Dom/Query.php (272)
+in /home/nike/webprojects/aliex/www/protected/vendors/Zend/Dom/Query.php (225)
+2012/03/06 11:19:33 [error] [php] DOMXPath::query(): Invalid number of arguments (/home/nike/webprojects/aliex/www/protected/vendors/Zend/Dom/Query.php:312)
+Stack trace:
+#0 /home/nike/webprojects/aliex/www/protected/vendors/Zend/Dom/Query.php(225): Zend_Dom_Query->queryXpath()
+#1 /home/nike/webprojects/aliex/www/protected/controllers/ParserImgController.php(40): Zend_Dom_Query->query()
+#2 /home/nike/webprojects/aliex/framework/web/actions/CInlineAction.php(50): ParserImgController->actionIndex()
+#3 /home/nike/webprojects/aliex/framework/web/CController.php(309): CInlineAction->runWithParams()
+#4 /home/nike/webprojects/aliex/framework/web/CController.php(287): ParserImgController->runAction()
+#5 /home/nike/webprojects/aliex/framework/web/CController.php(266): ParserImgController->runActionWithFilters()
+#6 /home/nike/webprojects/aliex/framework/web/CWebApplication.php(276): ParserImgController->run()
+#7 /home/nike/webprojects/aliex/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#8 /home/nike/webprojects/aliex/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /home/nike/webprojects/aliex/www/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=parserImg
+in /home/nike/webprojects/aliex/www/protected/vendors/Zend/Dom/Query.php (312)
+in /home/nike/webprojects/aliex/www/protected/vendors/Zend/Dom/Query.php (272)
+in /home/nike/webprojects/aliex/www/protected/vendors/Zend/Dom/Query.php (225)
+2012/03/06 11:20:00 [error] [php] DOMXPath::query(): Invalid expression (/home/nike/webprojects/aliex/www/protected/vendors/Zend/Dom/Query.php:312)
+Stack trace:
+#0 /home/nike/webprojects/aliex/www/protected/vendors/Zend/Dom/Query.php(225): Zend_Dom_Query->queryXpath()
+#1 /home/nike/webprojects/aliex/www/protected/controllers/ParserImgController.php(40): Zend_Dom_Query->query()
+#2 /home/nike/webprojects/aliex/framework/web/actions/CInlineAction.php(50): ParserImgController->actionIndex()
+#3 /home/nike/webprojects/aliex/framework/web/CController.php(309): CInlineAction->runWithParams()
+#4 /home/nike/webprojects/aliex/framework/web/CController.php(287): ParserImgController->runAction()
+#5 /home/nike/webprojects/aliex/framework/web/CController.php(266): ParserImgController->runActionWithFilters()
+#6 /home/nike/webprojects/aliex/framework/web/CWebApplication.php(276): ParserImgController->run()
+#7 /home/nike/webprojects/aliex/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#8 /home/nike/webprojects/aliex/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /home/nike/webprojects/aliex/www/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=parserImg
+in /home/nike/webprojects/aliex/www/protected/vendors/Zend/Dom/Query.php (312)
+in /home/nike/webprojects/aliex/www/protected/vendors/Zend/Dom/Query.php (272)
+in /home/nike/webprojects/aliex/www/protected/vendors/Zend/Dom/Query.php (225)
+2012/03/06 11:36:04 [error] [php] Undefined property: Zend_Dom_Query_Result::$nodevalue (/home/nike/webprojects/aliex/www/protected/controllers/ParserImgController.php:51)
+Stack trace:
+#0 /home/nike/webprojects/aliex/framework/web/CController.php(287): ParserImgController->runAction()
+#1 /home/nike/webprojects/aliex/framework/web/CController.php(266): ParserImgController->runActionWithFilters()
+#2 /home/nike/webprojects/aliex/framework/web/CWebApplication.php(276): ParserImgController->run()
+#3 /home/nike/webprojects/aliex/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#4 /home/nike/webprojects/aliex/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#5 /home/nike/webprojects/aliex/www/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=parserImg
+in /home/nike/webprojects/aliex/www/protected/controllers/ParserImgController.php (51)
+in /home/nike/webprojects/aliex/www/index.php (13)
+2012/03/06 11:37:35 [error] [php] Undefined property: DOMElement::$nodevalue (/home/nike/webprojects/aliex/www/protected/controllers/ParserImgController.php:52)
+Stack trace:
+#0 /home/nike/webprojects/aliex/framework/web/CController.php(287): ParserImgController->runAction()
+#1 /home/nike/webprojects/aliex/framework/web/CController.php(266): ParserImgController->runActionWithFilters()
+#2 /home/nike/webprojects/aliex/framework/web/CWebApplication.php(276): ParserImgController->run()
+#3 /home/nike/webprojects/aliex/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#4 /home/nike/webprojects/aliex/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#5 /home/nike/webprojects/aliex/www/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=parserImg
+in /home/nike/webprojects/aliex/www/protected/controllers/ParserImgController.php (52)
+in /home/nike/webprojects/aliex/www/index.php (13)
+2012/03/06 11:38:18 [error] [php] Undefined property: Zend_Dom_Query_Result::$nodeValue (/home/nike/webprojects/aliex/www/protected/controllers/ParserImgController.php:51)
+Stack trace:
+#0 /home/nike/webprojects/aliex/framework/web/CController.php(287): ParserImgController->runAction()
+#1 /home/nike/webprojects/aliex/framework/web/CController.php(266): ParserImgController->runActionWithFilters()
+#2 /home/nike/webprojects/aliex/framework/web/CWebApplication.php(276): ParserImgController->run()
+#3 /home/nike/webprojects/aliex/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#4 /home/nike/webprojects/aliex/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#5 /home/nike/webprojects/aliex/www/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=parserImg
+in /home/nike/webprojects/aliex/www/protected/controllers/ParserImgController.php (51)
+in /home/nike/webprojects/aliex/www/index.php (13)
+2012/03/06 12:49:11 [error] [php] DOMXPath::query(): Invalid expression (/home/nike/webprojects/aliex/www/protected/vendors/Zend/Dom/Query.php:312)
+Stack trace:
+#0 /home/nike/webprojects/aliex/www/protected/vendors/Zend/Dom/Query.php(225): Zend_Dom_Query->queryXpath()
+#1 /home/nike/webprojects/aliex/www/protected/controllers/ParserImgController.php(54): Zend_Dom_Query->query()
+#2 /home/nike/webprojects/aliex/framework/web/actions/CInlineAction.php(50): ParserImgController->actionIndex()
+#3 /home/nike/webprojects/aliex/framework/web/CController.php(309): CInlineAction->runWithParams()
+#4 /home/nike/webprojects/aliex/framework/web/CController.php(287): ParserImgController->runAction()
+#5 /home/nike/webprojects/aliex/framework/web/CController.php(266): ParserImgController->runActionWithFilters()
+#6 /home/nike/webprojects/aliex/framework/web/CWebApplication.php(276): ParserImgController->run()
+#7 /home/nike/webprojects/aliex/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#8 /home/nike/webprojects/aliex/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /home/nike/webprojects/aliex/www/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=parserImg
+in /home/nike/webprojects/aliex/www/protected/vendors/Zend/Dom/Query.php (312)
+in /home/nike/webprojects/aliex/www/protected/vendors/Zend/Dom/Query.php (272)
+in /home/nike/webprojects/aliex/www/protected/vendors/Zend/Dom/Query.php (225)
+2012/03/06 12:49:52 [error] [php] DOMXPath::query(): Invalid expression (/home/nike/webprojects/aliex/www/protected/vendors/Zend/Dom/Query.php:312)
+Stack trace:
+#0 /home/nike/webprojects/aliex/www/protected/vendors/Zend/Dom/Query.php(225): Zend_Dom_Query->queryXpath()
+#1 /home/nike/webprojects/aliex/www/protected/controllers/ParserImgController.php(54): Zend_Dom_Query->query()
+#2 /home/nike/webprojects/aliex/framework/web/actions/CInlineAction.php(50): ParserImgController->actionIndex()
+#3 /home/nike/webprojects/aliex/framework/web/CController.php(309): CInlineAction->runWithParams()
+#4 /home/nike/webprojects/aliex/framework/web/CController.php(287): ParserImgController->runAction()
+#5 /home/nike/webprojects/aliex/framework/web/CController.php(266): ParserImgController->runActionWithFilters()
+#6 /home/nike/webprojects/aliex/framework/web/CWebApplication.php(276): ParserImgController->run()
+#7 /home/nike/webprojects/aliex/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#8 /home/nike/webprojects/aliex/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /home/nike/webprojects/aliex/www/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=parserImg
+in /home/nike/webprojects/aliex/www/protected/vendors/Zend/Dom/Query.php (312)
+in /home/nike/webprojects/aliex/www/protected/vendors/Zend/Dom/Query.php (272)
+in /home/nike/webprojects/aliex/www/protected/vendors/Zend/Dom/Query.php (225)
+2012/03/06 12:50:41 [error] [php] DOMXPath::query(): Invalid expression (/home/nike/webprojects/aliex/www/protected/vendors/Zend/Dom/Query.php:312)
+Stack trace:
+#0 /home/nike/webprojects/aliex/www/protected/vendors/Zend/Dom/Query.php(225): Zend_Dom_Query->queryXpath()
+#1 /home/nike/webprojects/aliex/www/protected/controllers/ParserImgController.php(58): Zend_Dom_Query->query()
+#2 /home/nike/webprojects/aliex/framework/web/actions/CInlineAction.php(50): ParserImgController->actionIndex()
+#3 /home/nike/webprojects/aliex/framework/web/CController.php(309): CInlineAction->runWithParams()
+#4 /home/nike/webprojects/aliex/framework/web/CController.php(287): ParserImgController->runAction()
+#5 /home/nike/webprojects/aliex/framework/web/CController.php(266): ParserImgController->runActionWithFilters()
+#6 /home/nike/webprojects/aliex/framework/web/CWebApplication.php(276): ParserImgController->run()
+#7 /home/nike/webprojects/aliex/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#8 /home/nike/webprojects/aliex/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /home/nike/webprojects/aliex/www/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=parserImg
+in /home/nike/webprojects/aliex/www/protected/vendors/Zend/Dom/Query.php (312)
+in /home/nike/webprojects/aliex/www/protected/vendors/Zend/Dom/Query.php (272)
+in /home/nike/webprojects/aliex/www/protected/vendors/Zend/Dom/Query.php (225)
+2012/03/06 12:51:23 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: could not find driver' in /home/nike/webprojects/aliex/framework/db/CDbConnection.php:382
+Stack trace:
+#0 /home/nike/webprojects/aliex/framework/db/CDbConnection.php(331): CDbConnection->open()
+#1 /home/nike/webprojects/aliex/framework/db/CDbConnection.php(309): CDbConnection->setActive(true)
+#2 /home/nike/webprojects/aliex/framework/base/CModule.php(388): CDbConnection->init()
+#3 /home/nike/webprojects/aliex/framework/base/CModule.php(104): CModule->getComponent('db')
+#4 /home/nike/webprojects/aliex/www/protected/controllers/ParserImgController.php(63): CModule->__get('db')
+#5 /home/nike/webprojects/aliex/framework/web/actions/CInlineAction.php(50): ParserImgController->actionIndex()
+#6 /home/nike/webprojects/aliex/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#7 /home/nike/webprojects/aliex/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#8 /home/nike/webprojects/aliex/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 /home/nike/webprojects/aliex/framework/web/CWebApplication.php(276): CController->run('')
+#10 /home/nike/webprojects/aliex/framework/web/CWebApplication.php(135): CWebApplication->runController('parserImg')
+#11 /home/nike/webprojects/aliex/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#12 /home/nike/webprojects/aliex/www/index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/index.php?r=parserImg
+---
+2012/03/06 12:51:57 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '12:51:57)' at line 2. The SQL statement executed was: INSERT INTO item (title, price, link, pcs, store_link, date_add)
+    	        	VALUES('
+					Gift Bags 100 Pcs 9x12cm Pure Color Organza Bags Free Shipping,
+	', '
+																	US $9.00 - 10.61
+								 / lot
+							', 'http://www.aliexpress.com/fm-store/403546/211092936-463723636/Gift-Bags-100-Pcs-9x12cm-Pure-Color-Organza-Bags-Free-Shipping-.html', '
+				    				100 
+    				    				    pieces 
+    				/ lot, 
+    				$0.09 - 0.10  / piece', 'http://www.aliexpress.com/fm-store/403546/search/', 2012-03-06 12:51:57);.
+in /home/nike/webprojects/aliex/www/protected/controllers/ParserImgController.php (67)
+in /home/nike/webprojects/aliex/www/index.php (13)
+2012/03/06 12:51:57 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '12:51:57)' at line 2. The SQL statement executed was: INSERT INTO item (title, price, link, pcs, store_link, date_add)
+    	        	VALUES('
+					Gift Bags 100 Pcs 9x12cm Pure Color Organza Bags Free Shipping,
+	', '
+																	US $9.00 - 10.61
+								 / lot
+							', 'http://www.aliexpress.com/fm-store/403546/211092936-463723636/Gift-Bags-100-Pcs-9x12cm-Pure-Color-Organza-Bags-Free-Shipping-.html', '
+				    				100 
+    				    				    pieces 
+    				/ lot, 
+    				$0.09 - 0.10  / piece', 'http://www.aliexpress.com/fm-store/403546/search/', 2012-03-06 12:51:57);' in /home/nike/webprojects/aliex/framework/db/CDbCommand.php:354
+Stack trace:
+#0 /home/nike/webprojects/aliex/www/protected/controllers/ParserImgController.php(67): CDbCommand->execute()
+#1 /home/nike/webprojects/aliex/framework/web/actions/CInlineAction.php(50): ParserImgController->actionIndex()
+#2 /home/nike/webprojects/aliex/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#3 /home/nike/webprojects/aliex/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#4 /home/nike/webprojects/aliex/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 /home/nike/webprojects/aliex/framework/web/CWebApplication.php(276): CController->run('')
+#6 /home/nike/webprojects/aliex/framework/web/CWebApplication.php(135): CWebApplication->runController('parserImg')
+#7 /home/nike/webprojects/aliex/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /home/nike/webprojects/aliex/www/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/index.php?r=parserImg
+---
+2012/03/06 12:52:41 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id_item' in 'field list'. The SQL statement executed was: INSERT INTO item (id_item, link) VALUES ('1', 'http://img.alibaba.com/wsphoto/v0/424611944/Ring-Box-Jewelry-Box-Gift-Box-5x8x2-5cm-96pcs-Assoreted-Color-Free-Shipping.jpg'),('1', 'http://img.alibaba.com/wsphoto/v0/424556470/Ring-Box-Gift-Box-5X5X3cm-Assorted-Color-96-pcs-Per-Lot-Free-Shipping-As-China-Air.jpg'),('1', 'http://img.alibaba.com/wsphoto/v0/424605225/Jewelry-Box-Ring-Box-Gift-Box-4x4x3cm-120pcs-Assorted-Color-Free-Shipping.jpg'),('1', 'http://img.alibaba.com/wsphoto/v0/358370635/Jewelry-boxes-necklace-box-21x4x2cm-60pcs-assorted-color-free-shipping.jpg'),('1', 'http://img.alibaba.com/wsphoto/v0/505172677/Shopping-Bag-Christmas-Gift-Bag-Shopping-Bag-16-5x12cm-60Pcs-Lot-Free-Shiping.jpg'),('1', 'http://img.alibaba.com/wsphoto/v0/505171013/Gift-Bag-Christmas-Gift-Bag-Shopping-Bag-16-5x12cm-60Pcs-Lot-Free-Shiping.jpg'),('1', 'http://img.alibaba.com/wsphoto/v0/425188462/Velvet-Jewelry-Bag-100pcs-7x-9cm-Black-Velvet-Jewelry-Bags-Fashion-Jewelry-Bag-Free-Shipping.jpg'),('1', 'http://img.alibaba.com/wsphoto/v0/424788356/100pcs-10x-14-cm-Gift-bags-Organza-bags-Purple-colors-free-shipping-.jpg'),('1', 'http://img.alibaba.com/wsphoto/v0/364156580/Gift-boxes-rings-gift-paper-boxes-60pcs-lot-free-shipping.jpg'),('1', 'http://img.alibaba.com/wsphoto/v0/425171408/100pcs-9x-12-cm-Pouch-bag-Organza-bags-Gift-bags-Silver-colors-free-shipping-.jpg'),('1', 'http://img.alibaba.com/wsphoto/v0/463721757/Organza-bag-100pcs-7x9cm-heart-gift-bags-Jewelry-bags-free-shipping-.jpg'),('1', 'http://img.alibaba.com/wsphoto/v0/425190140/100pcs-9x12-cm-Velvet-pouch-gift-bag-Organza-bags-Black-colors-free-shipping-.jpg'),('1', 'http://img.alibaba.com/wsphoto/v0/424781874/Gift-bags-100pcs-10x14cm-pure-color-organza-bags-free-shipping-.jpg'),('1', 'http://img.alibaba.com/wsphoto/v0/432315052/3-level-earring-stand-earring-display-66-holes-Free-shipping.jpg'),('1', 'http://img.alibaba.com/wsphoto/v0/432303099/4row-earring-stand-earring-display-48-holes-Free-shipping.jpg'),('1', 'http://img.alibaba.com/wsphoto/v0/353653697/Bracelets-display-3-rows-bracelet-bangle-display-black-velvet-display-free-shipping.jpg'),('1', 'http://i00.i.aliimg.com/wsphoto/v0/463723636/Gift-Bags-100-Pcs-9x12cm-Pure-Color-Organza-Bags-Free-Shipping-.jpg').
+in /home/nike/webprojects/aliex/www/protected/controllers/ParserImgController.php (85)
+in /home/nike/webprojects/aliex/www/index.php (13)
+2012/03/06 12:52:41 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id_item' in 'field list'. The SQL statement executed was: INSERT INTO item (id_item, link) VALUES ('1', 'http://img.alibaba.com/wsphoto/v0/424611944/Ring-Box-Jewelry-Box-Gift-Box-5x8x2-5cm-96pcs-Assoreted-Color-Free-Shipping.jpg'),('1', 'http://img.alibaba.com/wsphoto/v0/424556470/Ring-Box-Gift-Box-5X5X3cm-Assorted-Color-96-pcs-Per-Lot-Free-Shipping-As-China-Air.jpg'),('1', 'http://img.alibaba.com/wsphoto/v0/424605225/Jewelry-Box-Ring-Box-Gift-Box-4x4x3cm-120pcs-Assorted-Color-Free-Shipping.jpg'),('1', 'http://img.alibaba.com/wsphoto/v0/358370635/Jewelry-boxes-necklace-box-21x4x2cm-60pcs-assorted-color-free-shipping.jpg'),('1', 'http://img.alibaba.com/wsphoto/v0/505172677/Shopping-Bag-Christmas-Gift-Bag-Shopping-Bag-16-5x12cm-60Pcs-Lot-Free-Shiping.jpg'),('1', 'http://img.alibaba.com/wsphoto/v0/505171013/Gift-Bag-Christmas-Gift-Bag-Shopping-Bag-16-5x12cm-60Pcs-Lot-Free-Shiping.jpg'),('1', 'http://img.alibaba.com/wsphoto/v0/425188462/Velvet-Jewelry-Bag-100pcs-7x-9cm-Black-Velvet-Jewelry-Bags-Fashion-Jewelry-Bag-Free-Shipping.jpg'),('1', 'http://img.alibaba.com/wsphoto/v0/424788356/100pcs-10x-14-cm-Gift-bags-Organza-bags-Purple-colors-free-shipping-.jpg'),('1', 'http://img.alibaba.com/wsphoto/v0/364156580/Gift-boxes-rings-gift-paper-boxes-60pcs-lot-free-shipping.jpg'),('1', 'http://img.alibaba.com/wsphoto/v0/425171408/100pcs-9x-12-cm-Pouch-bag-Organza-bags-Gift-bags-Silver-colors-free-shipping-.jpg'),('1', 'http://img.alibaba.com/wsphoto/v0/463721757/Organza-bag-100pcs-7x9cm-heart-gift-bags-Jewelry-bags-free-shipping-.jpg'),('1', 'http://img.alibaba.com/wsphoto/v0/425190140/100pcs-9x12-cm-Velvet-pouch-gift-bag-Organza-bags-Black-colors-free-shipping-.jpg'),('1', 'http://img.alibaba.com/wsphoto/v0/424781874/Gift-bags-100pcs-10x14cm-pure-color-organza-bags-free-shipping-.jpg'),('1', 'http://img.alibaba.com/wsphoto/v0/432315052/3-level-earring-stand-earring-display-66-holes-Free-shipping.jpg'),('1', 'http://img.alibaba.com/wsphoto/v0/432303099/4row-earring-stand-earring-display-48-holes-Free-shipping.jpg'),('1', 'http://img.alibaba.com/wsphoto/v0/353653697/Bracelets-display-3-rows-bracelet-bangle-display-black-velvet-display-free-shipping.jpg'),('1', 'http://i00.i.aliimg.com/wsphoto/v0/463723636/Gift-Bags-100-Pcs-9x12cm-Pure-Color-Organza-Bags-Free-Shipping-.jpg')' in /home/nike/webprojects/aliex/framework/db/CDbCommand.php:354
+Stack trace:
+#0 /home/nike/webprojects/aliex/www/protected/controllers/ParserImgController.php(85): CDbCommand->execute()
+#1 /home/nike/webprojects/aliex/framework/web/actions/CInlineAction.php(50): ParserImgController->actionIndex()
+#2 /home/nike/webprojects/aliex/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#3 /home/nike/webprojects/aliex/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#4 /home/nike/webprojects/aliex/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 /home/nike/webprojects/aliex/framework/web/CWebApplication.php(276): CController->run('')
+#6 /home/nike/webprojects/aliex/framework/web/CWebApplication.php(135): CWebApplication->runController('parserImg')
+#7 /home/nike/webprojects/aliex/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /home/nike/webprojects/aliex/www/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/index.php?r=parserImg
+---
