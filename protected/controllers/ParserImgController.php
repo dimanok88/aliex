@@ -140,12 +140,13 @@ class ParserImgController extends Controller
                     $connection2->createCommand($image_link)->execute();
                     $connection2->active = false;
                     unset($image_link);
-                    echo "<li>".$p_n." <a href='".$link."'>".$link."</a></li>";
                     sleep(2);
+                    echo "<li>".$p_n." <a href='".$link."'>".$link."</a></li>";
                     ob_flush();
                     flush();
                 }
 
+                ob_end_flush(); 
             }
             /////////////////////////////////////////
             //CVarDumper::dump($pages, 10, true);
