@@ -100,4 +100,23 @@ class Item extends CActiveRecord
 			'criteria'=>$criteria,
 		));
 	}
+
+    public function UploadPhoto()
+    {
+        $items =  Yii::app()->db->createCommand()
+                                  ->select('*')
+                                  ->from('item')
+                                  ->queryAll();
+
+        foreach($items as $item)
+        {
+            $id_item = $item['id'];
+            $dir = $item['store_link'];
+            $title_item = $item['title'];
+
+            Gallery::model()->CopyImg($id_item, $dir, $title_item);
+        }
+
+    }
+        
 }

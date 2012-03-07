@@ -87,4 +87,30 @@ class Gallery extends CActiveRecord
 			'criteria'=>$criteria,
 		));
 	}
+
+    public function CopyImg($id_item, $dir, $title_item)
+    {
+        $dir = preg_replace( "/\D/", '' , $dir );
+        $images = Yii::app()->db->createCommand()
+                                  ->select('*')
+                                  ->from('gallery')
+                                  ->where('id_item=:id_i', array(':id_i'=>$id_item))
+                                  ->queryAll();
+        if(!file_exists(Yii::app()->getBasePath().'/..'.'/res/'.$dir)){
+            mkdir(Yii::app()->getBasePath().'/..'.'/res/'.$dir);
+            chmod(Yii::app()->getBasePath().'/..'.'/res/'.$dir, 0777);
+        }
+        if(!file_exists(Yii::app()->getBasePath().'/..'.'/res/'.$dir."/".$id_item)){
+            mkdir(Yii::app()->getBasePath().'/..'.'/res/'.$dir."/".$id_item);
+            chmod(Yii::app()->getBasePath().'/..'.'/res/'.$dir."/".$id_item, 0777);
+        }
+        $i = 0;
+        foreach($images as $img){
+              echo $img['link']."<br/>";
+              copy($img['link'], $_SERVER['DOCUMENT_ROOT'].'aliex/www/res/'.$dir."/".$id_item."/".$id_item."_".$i.".jpg");
+              $i++;
+              set_time_limit(0);
+        }
+
+    }
 }

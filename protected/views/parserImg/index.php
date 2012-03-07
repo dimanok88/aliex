@@ -4,7 +4,11 @@ $this->breadcrumbs=array(
 );?>
 <h1><?php echo $this->id . '/' . $this->action->id; ?></h1>
 
-<p>
-	You may change the content of this page by modifying
-	the file <tt><?php echo __FILE__; ?></tt>.
-</p>
+<div class="row buttons">
+       <?php echo CHtml::ajaxButton ("Собрать информацию",
+                              CController::createUrl('parserImg/downloadItem'),
+                              array('update' => '#data', 'beforeSend'=>'function(data){$("#data").html(data);}'), array('id'=>'uploadphoto')
+);
+?>
+</div>
+<ul id="data"></ul>
